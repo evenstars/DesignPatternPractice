@@ -1,0 +1,7 @@
+LOAD inputImage/picOriginalTree.jpg
+MOSAIC 1000
+SAVE outputImage/output1.bmp
+
+FLAG GREECE 300 200
+GREYSCALE
+SAVE outputImage/output2.bmp

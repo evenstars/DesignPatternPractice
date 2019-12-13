@@ -1,0 +1,17 @@
+LOAD inputImage/picOriginalLake.jpg
+DITHER
+SHARPEN
+BLUR
+SAVE outputImage/outputDitheredLake.bmp
+
+LOAD inputImage/picOriginalLake.jpg
+SHARPEN
+SEPIA
+BLUR
+SAVE outputImage/outputDitheredLake.bmp
+
+LOAD inputImage/picOriginalLake.jpg
+GREYSCALE
+BLUR
+SEPIA
+SAVE outputImage/outputDitheredLake.bmp
